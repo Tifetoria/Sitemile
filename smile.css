@@ -9,6 +9,7 @@ header {
   box-sizing: border-box;
   background: rgba(0, 0, 0, .7);
   position: fixed;
+  z-index: 1;
 }
 
 .img .logo {
@@ -47,6 +48,7 @@ nav {
 
 .section1 .container {
   background: rgba(0, 0, 0, .7);
+  width: 100%;
   height: 900px;
 }
 
@@ -67,6 +69,8 @@ nav {
 .design h5 {
   font-size: 18px;
   margin-top: 5px;
+  color: white;
+
 }
 
 .stars {
@@ -97,7 +101,7 @@ nav {
 }
 
 .first {
-  height: 194vh;
+  /* height: 194vh; */
   background-color: white;
 }
 
@@ -128,7 +132,7 @@ nav {
   color: white;
 }
 
-.all {
+.alls {
   display: flex;
   justify-content: space-around;
   align-items: center;
